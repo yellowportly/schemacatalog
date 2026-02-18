@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Summary",
+  "description": "A summary of data",
+  "type": "object",
+  "properties": {
+    "caseType": {
+      "description": "The type of case",
+      "type": "string"
+    },
+    "claimant": {
+      "description": "Name of claimant",
+      "type": "string"
+    }
+  },
+  "required": ["caseType", "claimant"]
+}
