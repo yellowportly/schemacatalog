@@ -1,0 +1,3 @@
+rules:
+- claimant: claimant_name
+- caseType: case_type
